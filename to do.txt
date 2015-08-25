@@ -1,0 +1,66 @@
+continuously review rebranding guidelines
+review ease of editing less
+
+navbar border triangle;
+
+#nav ul {
+  margin-top: 15px;
+  background: #0066A2;
+  background: rgba(255,255,255,0);
+  list-style: none;
+  position: absolute;
+  left: -9999px;
+  color: white;
+  width: auto;
+  text-align: left;
+  align-content: middle;
+  display: block;
+  margin-left: -75px;
+  line-height: 24px;
+}
+
+content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: 100%;
+  left: 40%;
+  border: 10px solid;
+  border-color: transparent transparent #0066a2 transparent;
+
+
+
+.footer {
+display: block;
+height: @footer-height;
+width: @footer-width;
+background-color: @footer-bg;
+border-top: @footer-border-top;
+box-shadow: @footer-box-shadow;
+-webkit-box-shadow: @footer-box-shadow;
+-moz-box-shadow: @footer-box-shadow;
+position: fixed;
+bottom: @footer-bottom;
+left: @footer-left;
+text-align: @footer-text-align;
+z-index: 2000;
+}
+
+
+.navbar-default {
+    display:block;
+	background-color: @navbar-bg;
+	color: @main-text;
+	border-style: @navbar-border-style;
+    border-bottom-width: @navbar-bottom-border-width;
+	border-color: @navbar-border;
+	box-shadow: @navbar-box-shadow;
+	-webkit-box-shadow: @navbar-box-shadow;
+	-moz-box-shadow: @navbar-box-shadow;
+	height: @navbar-height;
+	right: 0px;
+	top: 0px;
+	left: 0px;
+	position: fixed;
+	z-index: 4;
+}
